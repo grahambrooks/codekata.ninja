@@ -147,9 +147,9 @@ html, body {height: 100%;}
 .carousel, .item, .active {height: 100%;}
 .carousel-inner {height: 100%;}
 
-.slide1 {background-image:url(../img/main-slider1.png);}
-.slide2 {background-image:url(../img/main-slider2.png);}
-.slide3 {background-image:url(../img/main-slider3.png);}
+.slide1 {background-image:url(../img/main-slider1.jpg);}
+.slide2 {background-image:url(../img/main-slider2.jpg);}
+.slide3 {background-image:url(../img/main-slider3.jpg);}
 
 #main-slider {background: #1A1A1A;}
 #main-slider .carousel-caption { top: 40%; text-align:center; }
