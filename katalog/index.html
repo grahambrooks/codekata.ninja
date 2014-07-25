@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="KatalogApp">
-
 <head>
     <meta charset="utf-8">
     <title>Code Kata Ninja - Katalogue</title>
@@ -68,33 +67,34 @@
 
 
 <section id="kata" class="section">
-<div class="container">
+    <div class="container">
 
-<div class="row">
-    <div class="col-lg-12">
-        <div class="headline">
-            <h1 class="section-title">Katalog</h1>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="headline">
+                    <h1 class="section-title">Katalog</h1>
 
-            <p class="section-description">An ever expanding list of code katas.</p>
+                    <p class="section-description">An ever expanding list of code katas.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+
+                <div class="row" ng-repeat="kata in katalog">
+                    <div class="col-lg-12 col-md-12">
+                        <div class="services-list">
+                            <i class="fa fa-keyboard-o fa-5x"></i>
+                            <h4>{{ kata.name }}</h4>
+
+                            <p>{{ kata.summary }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-</div>
-<div class="row">
-<div class="col-lg-12">
-
-<div class="row" ng-repeat="kata in katalog">
-    <div class="col-lg-12 col-md-12">
-        <div class="services-list">
-            <a href="fizzbuzz-kata">
-                <i class="fa fa-keyboard-o fa-5x"></i>
-                <h4>{{ kata.name }}</h4>
-            </a>
-
-            <p>A classic code kata with lots of interesting implementations and variations.</p>
-        </div>
-    </div>
-</div>
-
+</section>
 
 <!-- Start Scroll To Top  -->
 <a href="#" class="scroll-up"><i class="fa fa-arrow-up"></i></a>
