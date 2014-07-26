@@ -1,3 +1,10 @@
+---
+layout: none
+title: Home
+---
+
+
+
 <!DOCTYPE html> <!--[if lt IE 7 ]><html class="ie ie6" lang="en">
 <![endif]--> <!--[if IE 7 ]><html class="ie ie7" lang="en">
 <![endif]--> <!--[if IE 8 ]><html class="ie ie8" lang="en">
@@ -55,12 +62,11 @@
 	  <!-- Start Navigation -->
 	  <div class="navbar-collapse collapse">
 	    <ul class="nav navbar-nav menu-right">
-	      <li class="active"><a href="#header">Home</a></li> <!--
-		  <li><a href="#about">About Us</a></li>
-	      <li><a href="#skills">Skills</a></li>
-	      <li><a href="#portfolio">Portfolio</a></li>
-	      <li><a href="#services">Services</a></li>
-	      <li><a href="#contact">Contact</a></li> -->
+            {% for page in site.pages %}
+            {% if page.title %}
+            <li><a class="active" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+            {% endif %}
+            {% endfor %}
 	  </ul>
 	</div>
 	<!-- End Navigation -->

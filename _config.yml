@@ -1,0 +1,12 @@
+# Site settings
+title: Code Kata Ninja
+email: graham@grahambrooks.com
+description: "Coding better though deliberate practice"
+baseurl: ""
+url: "http://codekata.ninja"
+twitter_username: grahamcbrooks
+github_username:  grahambrooks
+
+# Build settings
+markdown: kramdown
+permalink: pretty
