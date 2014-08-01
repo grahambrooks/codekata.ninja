@@ -17,6 +17,25 @@ controller: KatalogController
             </div>
         </div>
         <div class="row">
+            <div class="col-lg-1 col-md-1">
+                <div class="services-list">
+                    <i class="fa fa-github"></i>
+                </div>
+            </div>
+            <div class="col-lg-11 col-md-11">
+                <h4>Contributing</h4>
+
+                <p>
+                    The Katalog is pretty light in terms of content at the moment. The catalog is in Json format and
+                    hosted on github. If you have a favorite Kata or come across one that you think is iteresting please
+                    consider adding it to the catalog and sending me a pull request.
+                    <a href="https://github.com/grahambrooks/katalog/blob/master/katalog.json"><i
+                            class="fa fa-external-link"></i> katalog.json</a>
+                </p>
+            </div>
+        </div>
+        <hr/>
+        <div class="row">
             <div class="col-lg-12">
                 <div class="row" ng-repeat="kata in katalog">
                     <div class="col-lg-1 col-md-1">
@@ -33,24 +52,6 @@ controller: KatalogController
                         <p>{( kata.summary )}</p>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-1 col-md-1">
-                <div class="services-list">
-                    <i class="fa fa-github"></i>
-                </div>
-            </div>
-            <div class="col-lg-11 col-md-11">
-                <h4>Contributing</h4>
-
-                <p>
-                    The Katalog is pretty light in terms of content at the moment. The catalog is in Json format and
-                    hosted on github. If you have a favorite Kata or come across one that you think is iteresting please
-                    consider adding it to the catalog and sending me a pull request.
-                    <a href="https://github.com/grahambrooks/katalog/blob/master/katalog.json"><i
-                            class="fa fa-external-link"></i> katalog.json</a>
-                </p>
             </div>
         </div>
     </div>
