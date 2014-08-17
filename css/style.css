@@ -111,34 +111,34 @@ Carousel Settings
  Navigation
  ========================================================================== */ 
 .navbar-inverse { margin-bottom: 0; -webkit-border-radius: 0; -moz-border-radius: 0;border-radius: 0; padding: 15px 0; -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out; -moz-transition: background .5s ease-in-out,padding .5s ease-in-out; transition: background .5s ease-in-out,padding .5s ease-in-out; background-color: transparent; background: none;  border: none;}
-.navbar-inverse .navbar-nav > li > a { color: #fff; display: block; -webkit-transition: all 100ms ease-in-out; -moz-transition: all 100ms ease-in-out; -o-transition: all 100ms ease-in-out; -ms-transition: all 100ms ease-in-out; transition: all 100ms ease-in-out; text-transform: uppercase; font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif; font-weight: bold;}
+.navbar-inverse .navbar-nav > li > a { color: #00f; display: block; -webkit-transition: all 100ms ease-in-out; -moz-transition: all 100ms ease-in-out; -o-transition: all 100ms ease-in-out; -ms-transition: all 100ms ease-in-out; transition: all 100ms ease-in-out; text-transform: uppercase; font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif; font-weight: bold;}
 
 .menu-right {float: right;}
 
 .navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-nav > li {-webkit-transition: all 400ms linear; -moz-transition: all 400ms linear; -o-transition: all 400ms linear; -ms-transition: all 400ms linear; transition: all 400ms linear;}
 
-.navbar-toggle { padding: 4px 6px; font-size: 16px; color: #fff;}
+.navbar-toggle { padding: 4px 6px; font-size: 16px; color: #777;}
 .navbar-toggle:focus,
 .navbar-toggle:active { outline: 0;}
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {background-color: transparent;}
 
 .navbar-brand { padding: 10px 15px;}
-.navbar-brand:hover { color: #fff;} 
+.navbar-brand:hover { color: #777;}
 
 .scroll-fixed-navbar { padding: 10px 0; background-color: #00a8d6; -webkit-box-shadow: 0 0 7px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0 0 7px rgba(0, 0, 0, 0.1); box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);}
 .scroll-fixed-navbar .navbar-nav > li > a:hover, 
 .scroll-fixed-navbar .navbar-nav > li.active > a { color: #333; }
 
-.navbar-toggle { position: relative; float: right; background-color: transparent; padding: 10px; margin: 13px 30px 13px 0; border: none; color: #fff; border: 2px solid #fff;}
-.navbar-toggle .icon-bar { background-color: #fff;}
+.navbar-toggle { position: relative; float: right; background-color: transparent; padding: 10px; margin: 13px 30px 13px 0; border: none; color: #00f; border: 2px solid #000;}
+.navbar-toggle .icon-bar { background-color: #777;}
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {border-color: rgba(0,0,0,0.1);}
 
 /* ==========================================================================
 Logo
  ========================================================================== */ 
-.navbar-inverse .navbar-brand  {color: #FFF; font-size: 30px; font-weight: 700; padding: 15px;}
+.navbar-inverse .navbar-brand  {color: #00F; font-size: 30px; font-weight: 700; padding: 15px;}
 
 /* ==========================================================================
 Intro Slider
